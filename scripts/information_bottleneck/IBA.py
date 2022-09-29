@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from tqdm import tqdm
-from scripts.utils import *
+from IBA.scripts.utils import *
 
 
 class Estimator:

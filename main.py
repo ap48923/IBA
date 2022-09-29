@@ -1,8 +1,8 @@
 import os
 import numpy as np
 import argparse
-from scripts.evaluations.Evaluation import *
-from scripts.utils import *
+from IBA.scripts.evaluations.Evaluation import *
+from IBA.scripts.utils import *
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="evaluations different interpretable methods")

@@ -1,7 +1,7 @@
 from lime.lime_text import LimeTextExplainer
 from captum.attr import IntegratedGradients
-from scripts.evaluations.Degradation import DegradationTest
-from scripts.methods import *
+from IBA.scripts.evaluations.Degradation import DegradationTest
+from IBA.scripts.methods import *
 
 np.random.seed(3)
 

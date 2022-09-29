@@ -1,6 +1,6 @@
-from scripts.information_bottleneck.IBA import *
-from scripts.evaluations.IntegratedGradient_ import *
-from scripts.evaluations.LIME_ import *
+from IBA.scripts.information_bottleneck.IBA import *
+from IBA.scripts.evaluations.IntegratedGradient_ import *
+from IBA.scripts.evaluations.LIME_ import *
 
 np.random.seed(3)
 
